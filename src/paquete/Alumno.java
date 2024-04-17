@@ -6,9 +6,9 @@ public class Alumno {
 	private Asignatura programacion;
 	
 	public Alumno( Asignatura a1, Asignatura a2, Asignatura a3) {
-		fol = new Asignatura(a1.getId());
-		entorno = new Asignatura(a2.getId());
-		programacion = new Asignatura(a3.getId());
+		fol = a1;
+		entorno = a2;
+		programacion = a3;
 	}
 	
 	public Alumno( int id1, int id2, int id3) {
