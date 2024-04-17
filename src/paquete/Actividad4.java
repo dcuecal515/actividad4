@@ -8,7 +8,7 @@ public class Actividad4 {
 		Asignatura asig2 = new Asignatura(2);
 		Asignatura asig3 = new Asignatura(3);
 		
-		Alumno a1 = new Alumno( asig1, asig2, asig3);
+		Alumno a1 = new Alumno( asig1, asig2, asig3, "Daniel", 2005,"77232515X");
 		
 		Profesor p1 = new Profesor();
 		p1.ponerNotas(a1);
